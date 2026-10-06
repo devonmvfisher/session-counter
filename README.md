@@ -7,7 +7,22 @@ workflow watchdog kills, and workflow agents that were lost or never reported ba
 in Python, both standard library only. They follow the same rules and print the same bytes, and a test in each suite
 checks that on every fixture.
 
+Why: if Claude Code keeps dropping requests or stopping your workflow agents, this gives you counts you can paste into a
+bug report, taken from your own logs, without sharing the logs themselves.
+
 ## Run
+
+First run, on all your Claude Code projects (copy one line):
+
+```
+node counter.mjs "$env:USERPROFILE\.claude\projects"
+```
+
+```
+node counter.mjs ~/.claude/projects
+```
+
+The first line is for PowerShell on Windows, the second for macOS or Linux. In general:
 
 ```
 node counter.mjs PATH
