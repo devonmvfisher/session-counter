@@ -1,0 +1,2 @@
+{"isSidechain":true,"type":"user","timestamp":"2026-01-15T09:16:00.000Z","uuid":"11111111-0000-4000-8000-000000000010","message":{"role":"user","content":"synthetic task prompt"}}
+{"isSidechain":true,"type":"assistant","timestamp":"2026-01-15T09:20:00.000Z","uuid":"11111111-0000-4000-8000-000000000011","message":{"id":"msg-synthetic-done","role":"assistant","content":[{"type":"text","text":"synthetic final answer"}]}}

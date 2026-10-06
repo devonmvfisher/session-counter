@@ -1,0 +1,1 @@
+{"runId":"wf_synthetic-004","status":"killed","startTime":1768496400000,"durationMs":600000,"workflowProgress":[{"type":"workflow_agent","agentId":"synthetic-k1","state":"progress","attempt":1,"lastProgressAt":1768496700000}]}

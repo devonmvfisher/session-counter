@@ -1,0 +1,8 @@
+{"parentUuid":null,"isSidechain":false,"type":"user","message":{"role":"user","content":"synthetic question"},"uuid":"22222222-0000-4000-8000-000000000001","timestamp":"2026-01-15T09:59:00.000Z"}
+{"type":"system","subtype":"api_error","uuid":"22222222-0000-4000-8000-0000000000aa","parentUuid":
+this line is not JSON
+{"parentUuid":"22222222-0000-4000-8000-000000000001","isSidechain":false,"type":"system","subtype":"api_error","level":"error","error":{"formatted":"Connection dropped (ECONNRESET)","status":null},"retryInMs":500,"retryAttempt":1,"maxRetries":10,"uuid":"22222222-0000-4000-8000-000000000002","timestamp":"2026-01-15T10:00:00.000Z","version":"0.0.0-synthetic"}
+[1, 2, 3]
+
+{"parentUuid":"22222222-0000-4000-8000-000000000002","isSidechain":false,"type":"assistant","uuid":"22222222-0000-4000-8000-000000000003","timestamp":"2026-01-15T10:01:00.000Z","message":{"id":"msg-synthetic-0003","role":"assistant","model":"synthetic-model","content":[{"type":"text","text":"synthetic reply"}]}}
+{"type":"assistant","timestamp":NaN}

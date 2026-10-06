@@ -1,0 +1,2 @@
+{"isSidechain":true,"type":"user","timestamp":"2026-01-15T10:50:00.000Z","uuid":"11111111-0000-4000-8000-000000000016","message":{"role":"user","content":"synthetic task prompt"}}
+{"isSidechain":true,"type":"assistant","timestamp":"2026-01-15T11:00:00.000Z","uuid":"11111111-0000-4000-8000-000000000017","isApiErrorMessage":true,"message":{"id":"msg-synthetic-api","role":"assistant","content":[{"type":"text","text":"API Error: Connection dropped (ECONNRESET)"}]}}

@@ -1,0 +1,1 @@
+{"runId":"wf_synthetic-005","status":"completed","startTime":1768377600000,"durationMs":3600000,"workflowProgress":[{"type":"workflow_agent","agentId":"synthetic-g1","state":"error","attempt":1,"error":"stalled: no progress for 180000ms","lastProgressAt":1768378470000}]}

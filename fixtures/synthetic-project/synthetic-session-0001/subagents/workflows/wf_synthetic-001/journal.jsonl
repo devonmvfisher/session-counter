@@ -1,0 +1,15 @@
+{"type":"launched"}
+{"type":"started","key":"a","agentId":"synthetic-a1","label":"a","phase":0}
+{"type":"started","key":"b","agentId":"synthetic-b1","label":"b","phase":0}
+{"type":"started","key":"e","agentId":"synthetic-e1","label":"e","phase":0}
+{"type":"result","key":"a","agentId":"synthetic-a1","result":"synthetic"}
+{"type":"started","key":"b","agentId":"synthetic-b2","label":"b","phase":0}
+{"type":"started","key":"e","agentId":"synthetic-e2","label":"e","phase":0}
+{"type":"result","key":"b","agentId":"synthetic-b2","result":"synthetic"}
+{"type":"result","key":"e","agentId":"synthetic-e2","result":"synthetic"}
+{"type":"started","key":"c","agentId":"synthetic-c1","label":"c","phase":1}
+{"type":"started","key":"d","agentId":"synthetic-d1","label":"d","phase":1}
+{"type":"failed","key":"c","agentId":"synthetic-c1"}
+{"type":"failed","key":"d","agentId":"synthetic-d1"}
+{"type":"started","key":"h","agentId":"synthetic-h1","label":"h","phase":2}
+{"type":"started","key":"i","agentId":"synthetic-i1","label":"i","phase":2}

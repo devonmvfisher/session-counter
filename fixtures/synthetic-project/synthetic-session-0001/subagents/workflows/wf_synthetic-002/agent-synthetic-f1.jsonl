@@ -1,0 +1,4 @@
+{"isSidechain":true,"type":"user","timestamp":"2026-01-15T15:00:00.000Z","uuid":"11111111-0000-4000-8000-000000000024","message":{"role":"user","content":"synthetic task prompt"}}
+{"isSidechain":true,"type":"assistant","timestamp":"2026-01-15T15:01:00.000Z","uuid":"11111111-0000-4000-8000-000000000025","message":{"id":"msg-synthetic-tu-f1","role":"assistant","content":[{"type":"tool_use","id":"tu-f1","name":"Grep","input":{"synthetic":true}}]}}
+{"isSidechain":true,"type":"user","timestamp":"2026-01-15T15:01:01.000Z","uuid":"11111111-0000-4000-8000-000000000026","message":{"role":"user","content":[{"type":"tool_result","tool_use_id":"tu-f1","content":"none","is_error":false}]}}
+{"isSidechain":true,"type":"user","timestamp":"2026-01-15T15:04:01.000Z","uuid":"11111111-0000-4000-8000-000000000027","message":{"role":"user","content":[{"type":"text","text":"[Request interrupted by user]"}]}}

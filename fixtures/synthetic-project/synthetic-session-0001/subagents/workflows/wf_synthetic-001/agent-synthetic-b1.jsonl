@@ -1,0 +1,5 @@
+{"isSidechain":true,"type":"user","timestamp":"2026-01-15T09:10:00.000Z","uuid":"11111111-0000-4000-8000-000000000005","message":{"role":"user","content":"synthetic task prompt"}}
+{"isSidechain":true,"type":"assistant","timestamp":"2026-01-15T09:12:00.000Z","uuid":"11111111-0000-4000-8000-000000000006","message":{"id":"msg-synthetic-tu-b1","role":"assistant","content":[{"type":"tool_use","id":"tu-b1","name":"Read","input":{"synthetic":true}}]}}
+{"isSidechain":true,"type":"user","timestamp":"2026-01-15T09:12:05.000Z","uuid":"11111111-0000-4000-8000-000000000007","message":{"role":"user","content":[{"type":"tool_result","tool_use_id":"tu-b1","content":"synthetic file text","is_error":false}]}}
+{"isSidechain":true,"type":"attachment","timestamp":"2026-01-15T09:12:05.100Z","uuid":"11111111-0000-4000-8000-000000000008","attachment":{"type":"synthetic_note"}}
+{"isSidechain":true,"type":"user","timestamp":"2026-01-15T09:15:05.100Z","uuid":"11111111-0000-4000-8000-000000000009","message":{"role":"user","content":[{"type":"text","text":"[Request interrupted by user]"}]}}

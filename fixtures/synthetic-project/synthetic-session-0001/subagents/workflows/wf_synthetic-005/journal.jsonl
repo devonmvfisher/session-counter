@@ -1,0 +1,4 @@
+{"type":"launched"}
+{"type":"started","key":"g","agentId":"synthetic-g1","label":"g","phase":0}
+{"type":"failed","key":"g","agentId":"synthetic-g1"}
+{"type":"started","key":"m","agentId":"synthetic-m1","label":"m","phase":0}
