@@ -121,6 +121,10 @@ it cannot read); 3 an unexpected error.
   Code versions. These rules were checked against logs written in early October 2026.
 - Records written out of order. Incidents are followed forward from each failed request, the way Claude Code appends
   records; an agent file is read from its end, and only its last records are parsed.
+- Files with very long paths, in Python on Windows. Unless Windows long paths are turned on, Python cannot open a file
+  whose full path is 260 characters or longer, and the Python counter counts it under `could not read`. The Node
+  counter reads it. If `could not read` is above 0, run the Node counter, or copy the logs to a shorter folder. The
+  tests need the same: clone this repo into a short folder.
 
 ## Tests
 
@@ -150,7 +154,7 @@ all, with a comment on each case:
 ## One real check
 
 On one real set of logs (the author's own, Oct 1 to Oct 3 2026), both counters printed identical JSON, and their
-counts matched an earlier, separate count made with a private scanner by the same author: 208 failed requests in 54
+counts matched an earlier, separate count made with a private scanner that a different Claude agent wrote for the same author: 208 failed requests in 54
 incidents (47 recovered, 7 give-ups), 353 watchdog kills (323 of them restarted, 17 short stops not counted) and 39 lost
 agents. Those logs are not in this repo.
 
